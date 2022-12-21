@@ -1,7 +1,7 @@
 @import "../../global.scss";
 .intro{
-    // background-color: lightblue;
-    background-color: white;
+    background-color: rgb(217, 241, 249);
+    // background-color: rgb(225, 225, 225);
     display: flex;
 
     .left{
@@ -18,7 +18,6 @@
             align-items: center;
             justify-content: center;
             float: right;
-
             overflow: hidden;
 
             img{
