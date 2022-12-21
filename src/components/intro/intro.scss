@@ -1,3 +1,4 @@
+@import "../../global.scss";
 .intro{
     // background-color: lightblue;
     background-color: white;
@@ -10,18 +11,21 @@
         .imgContainer{
             width: 700px;
             height: 700px;
-            background-color: #6a5acd;
+            background-color: #352792;
+            // background-color: $mainColor;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             float: right;
+
             overflow: hidden;
 
             img{
                 margin-bottom: 150px;
                 // width: 70%;
                 height: 90%;
+                
                 
             }
         }
@@ -53,6 +57,24 @@
 
             h3{
                 font-size: 30px;
+
+                span{
+                    font-size: inherit;
+                    color: $purple;
+                }
+
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
             }
         }
         a{
