@@ -2,10 +2,18 @@ $mainColor: #15023a;
 $white: #fff;
 $purple:#6a5acd;
 
-$width: 768px;
+$width: 765px;
 
 @mixin mobile{
     @media (max-width: #{$width}){
+        @content
+    }
+}
+
+$width2: 900px;
+
+@mixin ipad{
+    @media (max-width: #{$width2}){
         @content
     }
 }

@@ -14,6 +14,7 @@
         position: absolute;
         cursor: pointer;
 
+
         @include mobile{
             display: none;
         }
@@ -21,10 +22,16 @@
         &.left{
             left: 100px;
             transform: rotateY(180deg);
+            @include ipad{
+                left: 5px;
+            }
         }
 
         &.right{
             right: 100px;
+            @include ipad{
+                right: 5px;
+            }
         }
     }
 
@@ -34,7 +41,6 @@
         position: absolute;
         left: 0;
         transition: all 1s ease-out;
-        
 
         @include mobile{
             height: 100vh;
@@ -57,6 +63,9 @@
                 align-items: center;
                 justify-content: center;
 
+                @include ipad{
+                    width: 600px;
+                }
                 @include mobile{
                     width: 90%;
                     height: 180px;
