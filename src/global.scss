@@ -1,3 +1,11 @@
 $mainColor: #15023a; 
 $white: #fff;
 $purple:#6a5acd;
+
+$width: 768px;
+
+@mixin mobile{
+    @media (max-width: #{$width}){
+        @content
+    }
+}

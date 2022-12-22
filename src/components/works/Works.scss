@@ -94,10 +94,11 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    overflow: hidden;
 
                     img{
                         width: 600px;
-                        overflow-y: hidden;
+                        
                         // transform: rotate(-10deg);
                     }
                 }
