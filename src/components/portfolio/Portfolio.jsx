@@ -3,9 +3,7 @@ import { useState, useEffect } from "react";
 import "./Portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
   designPortfolio,
-  contentPortfolio,
 } from "../../data";
 
 export default function Portfolio() {
@@ -36,9 +34,6 @@ export default function Portfolio() {
         setData(featuredPortfolio);
         break;
 
-      // case "web":
-      //   setData(webPortfolio);
-      //   break;
 
       case "design":
         setData(designPortfolio);
