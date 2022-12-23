@@ -11,9 +11,8 @@ export const featuredPortfolio = [
     },
     {
       id: 3,
-      title: "E-commerce Web Design",
-      img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+      title: "Employee Management System",
+      img:"assets/employee.png"
     },
     {
       id: 4,
@@ -28,9 +27,8 @@ export const featuredPortfolio = [
     },
     {
       id: 6,
-      title: "Banking App",
-      img:
-        "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+      title: "Login Page",
+      img:"assets/social_login2.png",
     },
   ];
   
@@ -38,8 +36,8 @@ export const featuredPortfolio = [
     {
       id: 1,
       title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
-    },
+      img: "assets/labour2.png"
+   },
     {
       id: 2,
       title: "Web Rampa UI Design",
@@ -76,25 +74,24 @@ export const featuredPortfolio = [
     },
     {
       id: 2,
+      title: "Mobile",
+      img:"assets/perfect.jpeg"
+    },
+    {
+      id: 3,
       title: "Social Media Design",
       img:"assets/social.png"
     },
     {
-      id: 3,
-      title: "Design E-commerce Web Design",
-      
-      img: "https://cdn.dribbble.com/users/387658/screenshots/15458608/media/e92ec1dd33dd1170ae3dc9c5272f2693.jpg?compress=1&resize=1200x900",
-    },
-    {
       id: 4,
-      title: "Design Relax Mobile App",
+      title: "Quriosity UI design",
       img:"assets/quriocity.png"
     },
     {
       id: 5,
-      title: "Design Keser Web Design",
+      title: "Projects page",
+      img:"assets/quriocity_projects.png"
       
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
     },
     {
       id: 6,

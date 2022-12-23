@@ -18,10 +18,10 @@ export default function Portfolio() {
       title: "Featured",
     },
 
-    {
-      id: "web",
-      title: "Web App",
-    },
+    // {
+    //   id: "web",
+    //   title: "Web App",
+    // },
 
     {
       id: "design",
@@ -36,9 +36,9 @@ export default function Portfolio() {
         setData(featuredPortfolio);
         break;
 
-      case "web":
-        setData(webPortfolio);
-        break;
+      // case "web":
+      //   setData(webPortfolio);
+      //   break;
 
       case "design":
         setData(designPortfolio);

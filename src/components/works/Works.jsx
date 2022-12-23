@@ -9,28 +9,27 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
-      desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-      img:
-      "assets/labour1.png"
+      title: "Quriocity",
+      desc:"A fullstack portfolio website with the purpose of displaying the working of company and its projects.",
+      img:"assets/quriocity.png"
+      
     },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "SocialGram",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img: "assets/perfect.jpeg"
+        "A social media project using raect components and raect hooks. .",
+      img: "assets/social2.png"
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "Lobourzilla",
       desc:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
+        "A UI design app with HTML and CSS.",
+        img:
+        "assets/labour1.png"
     },
   ]
 
