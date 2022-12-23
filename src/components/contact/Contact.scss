@@ -14,6 +14,12 @@
     .left{
         flex: 1.3;
         overflow: hidden;
+        @include mobile{
+            flex: 0.9;
+        }
+        @include ipad{
+            flex: 1;
+        }
 
         img{
             height: 100%;
@@ -36,13 +42,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: space-around;
+            // justify-content: space-around;
 
             input{
                 margin-top: 20px;
                 width: 300px;
                 height: 30px;
                 font-size: 14px;
+                margin: 20px 0;
 
                 @include ipad{
                     width: 290px;
@@ -51,6 +58,7 @@
                 @include mobile{
                     width: 200px;
                     height: 20px;
+                    margin: 10px 0;
                     
                 }
             }
@@ -59,14 +67,17 @@
                 width: 300px;
                 height: 210px;
                 font-size: 14px;
+                margin: 0 0 20px 0;
                 @include ipad{
                     width: 290px;
+                    height: 200px;
                     margin: 10px 0;
+                    margin: 0px 0px 0 0;
                 }
                 @include mobile{
                     width: 200px;
                     height: 90px;
-                    margin:  0 0 10px 0;
+                    margin:  0 0 5px 0;
                 }
                 
             }
@@ -80,11 +91,27 @@
                 border-radius: 10px;
                 font-weight: 500;
                 cursor: pointer;
-                
+                @include ipad{
+                    margin: 10px;
+                }
             }
 
             span{
                 color: green;
+            }
+
+            
+        }
+
+        .links{
+            display: flex;
+
+            img{
+                width: 50px;
+                margin-left: 10px;  
+                @include mobile{
+                    width: 30px;
+                }  
             }
         }
     }

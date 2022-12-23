@@ -24,6 +24,14 @@ export default function Contact() {
           <button type="submit">Send</button>
           {message && <span>Thanks I'll reply ASAP :) </span>}
         </form>
+        <div className="links">
+          <a href="https://www.linkedin.com/in/akshansh-garg-580080200/" target="_blank">
+            <img src="assets/linkedin_b.png" alt="" />
+          </a>
+          <a href="https://www.instagram.com/garg__akshansh/" target="_blank">
+            <img src="assets/insta_b.png" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   )

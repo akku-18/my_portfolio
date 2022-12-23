@@ -9,7 +9,7 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Quriocity",
+      title: "Quriosity",
       desc:"A fullstack portfolio website with the purpose of displaying the working of company and its projects.",
       img:"assets/quriocity.png"
       
@@ -19,13 +19,13 @@ export default function Works() {
       icon: "./assets/globe.png",
       title: "SocialGram",
       desc:
-        "A social media project using raect components and raect hooks. .",
+        "A social media project using react components and raect hooks. .",
       img: "assets/social2.png"
     },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Lobourzilla",
+      title: "Labourzilla",
       desc:
         "A UI design app with HTML and CSS.",
         img:
