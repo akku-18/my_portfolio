@@ -25,10 +25,10 @@ export default function Contact() {
           {message && <span>Thanks I'll reply ASAP :) </span>}
         </form>
         <div className="links">
-          <a href="https://www.linkedin.com/in/akshansh-garg-580080200/" target="_blank">
+          <a href="https://www.linkedin.com/in/akshansh-garg-580080200/" target="_blank" rel="noreferrer">
             <img src="assets/linkedin_b.png" alt="" />
           </a>
-          <a href="https://www.instagram.com/garg__akshansh/" target="_blank">
+          <a href="https://www.instagram.com/garg__akshansh/" target="_blank" rel="noreferrer">
             <img src="assets/insta_b.png" alt="" />
           </a>
         </div>
